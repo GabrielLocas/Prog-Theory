@@ -4,7 +4,8 @@ using UnityEngine;
 
 public class MainManager : MonoBehaviour
 {
-    public static MainManager Instance;
+    // ENCAPSULATION
+    public static MainManager Instance {get; set; }
     public int carType;
     public float speed;
 
